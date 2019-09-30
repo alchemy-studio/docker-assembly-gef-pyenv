@@ -3,6 +3,8 @@
 
 ![](https://raw.githubusercontent.com/liweinan/docker-assembly-gef-pyenv/master/AB58EEC9-B879-421F-9E93-FA22A2843D4A.png)
 
+* [GitHub - hugsy/gef: GEF - GDB Enhanced Features for exploit devs & reversers](https://github.com/hugsy/gef)
+* 参考文档： [docker的gef容器 | 阿男的小窝](http://weinan.io/2019/05/30/gef.html)
 
 ## 使用方法
 
@@ -10,7 +12,11 @@
 $ docker run -it weli/docker-assembly-gef-pyenv bash
 ```
 
+* 参考文档： [搭建一个汇编开发学习用的容器](http://weinan.io/2019/05/08/asm.html)
+
 ## 使用privileged mode运行容器
+
+* 参考文档： [gdb在docker容器里面的使用](http://weinan.io/2019/05/04/asm.html)
 
 在容器当中使用`gdb`调试代码需要使用`privileged mode`：
 
@@ -92,6 +98,8 @@ Breakpoint 1, _start () at foo.asm:5
 
 ## c和assembly的混编
 
+* 参考文档：[搭建c和assembly混编的编译环境](http://weinan.io/2019/03/30/c.html)
+
 ```bash
 $ pwd
 /root
@@ -128,10 +136,3 @@ $ ./asm
 foo+bar=25
 ```
 
-## 参考文档
-
-
-- [搭建一个汇编开发学习用的容器](http://weinan.io/2019/05/08/asm.html)
-- [gdb在docker容器里面的使用](http://weinan.io/2019/05/04/asm.html)
-- [搭建c和assembly混编的编译环境](http://weinan.io/2019/03/30/c.html)
-- [docker的gef容器 | 阿男的小窝](http://weinan.io/2019/05/30/gef.html)
