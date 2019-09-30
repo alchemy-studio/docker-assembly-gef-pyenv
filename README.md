@@ -77,23 +77,24 @@ foo      foo.asm  foo.lst  foo.o
 ```
 
 ```bash
-$ gdb -q foo
+$ ld -o foo foo.o
+$ ls foo
+foo
+```
+
+```bash
+bash-5.0# gdb -q foo
+GEF for linux ready, type `gef' to start, `gef config' to configure
+80 commands loaded for GDB 8.3 using Python engine 3.7
 Reading symbols from foo...
-(gdb) list
+gef➤  list
 1	global _start
 2	_start:
 3	  mov eax, 1
 4	  mov ebx, 5
 5	  int 0x80
 6
-(gdb) b 5
-Breakpoint 1 at 0x40100a: file foo.asm, line 5.
-(gdb) run
-Starting program: /root/foo
-
-Breakpoint 1, _start () at foo.asm:5
-5	  int 0x80
-(gdb)
+gef➤
 ```
 
 ## c和assembly的混编
