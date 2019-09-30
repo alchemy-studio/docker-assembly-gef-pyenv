@@ -1,6 +1,7 @@
 
-![](https://raw.githubusercontent.com/liweinan/docker-assembly-gef-pyenv/master/AB58EEC9-B879-421F-9E93-FA22A2843D4A.png)
+`GEF`已经安装进容器：
 
+![](https://raw.githubusercontent.com/liweinan/docker-assembly-gef-pyenv/master/AB58EEC9-B879-421F-9E93-FA22A2843D4A.png)
 
 
 ## 使用方法
@@ -133,3 +134,4 @@ foo+bar=25
 - [搭建一个汇编开发学习用的容器](http://weinan.io/2019/05/08/asm.html)
 - [gdb在docker容器里面的使用](http://weinan.io/2019/05/04/asm.html)
 - [搭建c和assembly混编的编译环境](http://weinan.io/2019/03/30/c.html)
+- [docker的gef容器 | 阿男的小窝](http://weinan.io/2019/05/30/gef.html)
