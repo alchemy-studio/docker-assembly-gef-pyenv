@@ -12,6 +12,42 @@ $ docker run -it weli/docker-assembly-gef-pyenv bash
 $ docker run -it --privileged  weli/docker-assembly-gef-pyenv bash
 ```
 
+## 编译汇编代码
+
+```bash
+$ pwd
+/root
+```
+
+```bash
+$ ls
+foo.asm
+```
+
+``` bash
+$ cat foo.asm
+global _start
+_start:
+  mov eax, 1
+  mov ebx, 5
+  int 0x80
+```
+
+```bash
+$ yasm -f elf64 -g dwarf2 -l foo.lst foo.asm
+```
+
+```bash
+$ ls
+foo.asm  foo.lst  foo.o
+```
+
+```bash
+$ ./foo
+$ echo $?
+5
+```
+
 ## 参考文档
 
 
