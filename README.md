@@ -8,10 +8,10 @@ $ docker run -it weli/docker-assembly-gef-pyenv bash
 
 ## 使用privileged mode运行容器
 
-在容器当中使用`gdb`调试代码需要使用privileged mode：
+在容器当中使用`gdb`调试代码需要使用`privileged mode`：
 
 ```bash
-$ docker run -it --privileged  weli/docker-assembly-gef-pyenv bash
+$ docker run -it --privileged weli/docker-assembly-gef-pyenv bash
 ```
 
 ## 编译汇编代码
