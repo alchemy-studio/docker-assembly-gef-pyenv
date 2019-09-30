@@ -57,6 +57,12 @@ foo.asm  foo.lst  foo.o
 ```
 
 ```bash
+$ ld -o foo foo.o
+$ ls foo
+foo
+```
+
+```bash
 $ ./foo
 $ echo $?
 5
@@ -74,12 +80,6 @@ $ pwd
 ```bash
 $ ls
 foo      foo.asm  foo.lst  foo.o
-```
-
-```bash
-$ ld -o foo foo.o
-$ ls foo
-foo
 ```
 
 ```bash
