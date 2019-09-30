@@ -86,6 +86,29 @@ Breakpoint 1, _start () at foo.asm:5
 (gdb)
 ```
 
+## c和assembly的混编
+
+```bash
+$ pwd
+/root
+```
+
+```bash
+$ ls asm.c
+asm.c
+```
+
+```bash
+$ cc -g asm.c -o asm
+$ ls asm
+asm
+```
+
+```bash
+$ ./asm
+foo+bar=25
+```
+
 ## 参考文档
 
 
