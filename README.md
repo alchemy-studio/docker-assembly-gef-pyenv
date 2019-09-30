@@ -3,13 +3,13 @@
 ## 使用方法
 
 ```bash
-$ docker run -it weli/docker-assembly-get-pyenv bash
+$ docker run -it weli/docker-assembly-gef-pyenv bash
 ```
 
 ## 使用privileged mode运行容器
 
 ```bash
-$ docker run -it --privileged  weli/docker-assembly-get-pyenv bash
+$ docker run -it --privileged  weli/docker-assembly-gef-pyenv bash
 ```
 
 ## 参考文档
