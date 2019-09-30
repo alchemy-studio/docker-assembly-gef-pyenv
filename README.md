@@ -52,6 +52,10 @@ $ echo $?
 
 ## 调试汇编代码
 
+注意：在容器当中使用gdb调试代码需要使用`privileged mode`，参见上文。
+
+
+
 ```bash
 $ pwd
 /root
