@@ -16,13 +16,13 @@ $ docker run -it weli/docker-assembly-gef-pyenv bash
 
 ## 使用privileged mode运行容器
 
-* 参考文档： [gdb在docker容器里面的使用](http://weinan.io/2019/05/04/asm.html)
-
 在容器当中使用`gdb`调试代码需要使用`privileged mode`：
 
 ```bash
 $ docker run -it --privileged weli/docker-assembly-gef-pyenv bash
 ```
+
+* 参考文档： [gdb在docker容器里面的使用](http://weinan.io/2019/05/04/asm.html)
 
 ## 编译汇编代码
 
@@ -64,8 +64,6 @@ $ echo $?
 
 注意：在容器当中使用gdb调试代码需要使用`privileged mode`，参见上文。
 
-
-
 ```bash
 $ pwd
 /root
@@ -97,8 +95,6 @@ Breakpoint 1, _start () at foo.asm:5
 ```
 
 ## c和assembly的混编
-
-* 参考文档：[搭建c和assembly混编的编译环境](http://weinan.io/2019/03/30/c.html)
 
 ```bash
 $ pwd
@@ -135,4 +131,6 @@ asm
 $ ./asm
 foo+bar=25
 ```
+
+* 参考文档：[搭建c和assembly混编的编译环境](http://weinan.io/2019/03/30/c.html)
 
