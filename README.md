@@ -97,6 +97,10 @@ gef➤  list
 gef➤
 ```
 
+截图：
+
+![](https://raw.githubusercontent.com/liweinan/docker-assembly-gef-pyenv/master/DC5D6565-4429-46DF-AECD-8108895A85EF.png)
+
 ## c和assembly的混编
 
 ```bash
