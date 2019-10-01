@@ -1,5 +1,8 @@
 # 汇编语言学习容器
 
+使用这个容器的学习笔记：
+
+* [汇编学习笔记](https://gist.github.com/liweinan/fe2a6dff56e86c781669d54ea5a90692)
 
 `GEF`已经安装进容器：
 
