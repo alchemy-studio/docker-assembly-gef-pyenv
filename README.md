@@ -142,5 +142,14 @@ $ ./asm
 foo+bar=25
 ```
 
-* 参考文档：[搭建c和assembly混编的编译环境](http://weinan.io/2019/03/30/c.html)
+## 代码例子
+
+* https://github.com/liweinan/htaoe
+* https://gist.github.com/liweinan/fe2a6dff56e86c781669d54ea5a90692
+
+## 参考文档
+
+* [搭建c和assembly混编的编译环境](http://weinan.io/2019/03/30/c.html)
+
+
 
