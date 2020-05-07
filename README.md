@@ -1,8 +1,15 @@
 # 汇编语言学习容器
 
-使用这个容器的学习笔记：
+## 使用这个容器的学习笔记
 
 * [汇编学习笔记](https://gist.github.com/liweinan/fe2a6dff56e86c781669d54ea5a90692)
+
+
+## 相关的blog
+
+* [docker的gef容器](https://weinan.io/2019/05/30/gef.html)
+
+## 注意事项
 
 `GEF`已经安装进容器：
 
