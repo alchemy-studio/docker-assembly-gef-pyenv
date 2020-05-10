@@ -13,7 +13,7 @@
 
 `GEF`已经安装进容器：
 
-![](https://raw.githubusercontent.com/liweinan/docker-assembly-gef-pyenv/master/AB58EEC9-B879-421F-9E93-FA22A2843D4A.png)
+![](https://raw.githubusercontent.com/liweinan/docker-assembly-gef-pyenv/master/screenshots/AB58EEC9-B879-421F-9E93-FA22A2843D4A.png)
 
 * [GitHub - hugsy/gef: GEF - GDB Enhanced Features for exploit devs & reversers](https://github.com/hugsy/gef)
 * 参考文档： [docker的gef容器 | 阿男的小窝](http://weinan.io/2019/05/30/gef.html)
@@ -109,7 +109,7 @@ gef➤
 
 截图：
 
-![](https://raw.githubusercontent.com/liweinan/docker-assembly-gef-pyenv/master/DC5D6565-4429-46DF-AECD-8108895A85EF.png)
+![](https://raw.githubusercontent.com/liweinan/docker-assembly-gef-pyenv/master/screenshots/DC5D6565-4429-46DF-AECD-8108895A85EF.png)
 
 ## c和assembly的混编
 
