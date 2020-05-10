@@ -1,0 +1,37 @@
+name: Docker Image CI
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v2
+
+      - name: Docker build & Push
+        uses: opspresso/action-docker@v0.2.8
+        with:
+          args: --docker
+        env:
+          USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          PASSWORD: ${{ secrets.DOCKER_TOKEN }}
+          REGISTRY: "docker.pkg.github.com"
+          DOCKERFILE: "Dockerfile"
+          IMAGE_NAME: "docker-assembly-gef"
+          TAG_NAME: "0.0.2"
+          LATEST: "true"
+
+      - name: Notify User
+        run: |
+          curl '${{ secrets.NOTIFY_URL }}' \
+             -H 'Content-Type: application/json' \
+             -d '
+             {
+                  "msgtype": "text",
+                  "text": {
+                      "content": "【alchemy-studio-bot】Build docker-assembly-gef Successfully!",
+                      "mentioned_list":["@all"]
+                  }
+             }'
