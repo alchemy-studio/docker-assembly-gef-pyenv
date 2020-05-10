@@ -11,6 +11,6 @@ RUN pip3 install capstone
 RUN pip3 install ropper
 RUN wget https://github.com/hugsy/gef/raw/master/gef.py && mv gef.py $HOME/.gdbinit-gef.py && echo "source $HOME/.gdbinit-gef.py" > "$HOME/.gdbinit"
 
-COPY foo.asm asm.c /root/
+COPY sample_codes/foo.asm sample_codes/asm.c /root/
 WORKDIR /root
 
