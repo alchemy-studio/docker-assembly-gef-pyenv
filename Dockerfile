@@ -11,6 +11,7 @@ COPY asm.c /root/
 # 安装gef
 RUN apk add wget && rm -rf /var/cache/apk/*
 RUN pip install --upgrade pip
+RUN pip3 install --upgrade pip3
 RUN pip3 install keystone-engine unicorn capstone
 RUN pip3 install ropper
 # RUN wget -q -O- https://github.com/hugsy/gef/raw/master/scripts/gef.sh | sh
