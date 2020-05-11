@@ -5,7 +5,7 @@ on:
     branches:
       - master         # Push events on master branch
     tags:
-      *
+      - *
 
 jobs:
   build:
