@@ -25,7 +25,7 @@ jobs:
           REGISTRY: "docker.pkg.github.com"
           DOCKERFILE: "Dockerfile"
           IMAGE_NAME: "docker-assembly-gef"
-          TAG_NAME: "0.0.2"
+          TAG_NAME: "0.0.3"
           LATEST: "true"
 
       - name: Notify User
